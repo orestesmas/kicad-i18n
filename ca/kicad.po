@@ -1,18 +1,19 @@
+# Orestes Mas <orestes@tsc.upc.edu>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2017-09-21 11:03+0200\n"
-"Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
-"Language-Team: Robert Antoni Buj i Gelonch <rbuj@fodoraproject.org>\n"
+"PO-Revision-Date: 2018-09-02 19:34+0100\n"
+"Last-Translator: Orestes Mas <orestes@tsc.upc.edu>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: _\n"
 "X-Poedit-Basepath: f:/kicad-svn/kicad\n"
-"X-Generator: Poedit 2.0.3\n"
+"X-Generator: Lokalize 2.0\n"
 "X-Poedit-SearchPath-0: pcbnew\n"
 "X-Poedit-SearchPath-1: eeschema\n"
 "X-Poedit-SearchPath-2: cvpcb\n"
@@ -21,6 +22,7 @@ msgstr ""
 "X-Poedit-SearchPath-5: common\n"
 "X-Poedit-SearchPath-6: 3d-viewer\n"
 "X-Poedit-SearchPath-7: share\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: 3d-viewer/3d_cache/3d_cache.cpp:529
 msgid "path exists but is not a regular file"
@@ -106,6 +108,8 @@ msgid ""
 "Multiple entries selected; please\n"
 "select only one entry"
 msgstr ""
+"Heu seleccionat múltiples opcions;\n"
+"escolliu-ne solament una"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:233
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:240
@@ -122,10 +126,14 @@ msgid ""
 "Enter the name and path for each 3D alias variable.<br>KiCad environment "
 "variables and their values are shown for reference only and cannot be edited."
 msgstr ""
+"Introduïu el nom i el camí de cada variable d'àlies 3D.<br>Les variables"
+" d'entorn del KiCad "
+"i els seus valors es mostren únicament com a referència però no poden"
+" editar-se."
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:374
 msgid "Alias names may not contain any of the characters "
-msgstr ""
+msgstr "Els noms d'àlies no poden contenir cap dels caràcters "
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig.cpp:378
 #: common/dialogs/dialog_env_var_config.cpp:325
@@ -368,15 +376,15 @@ msgstr "Desplaçament X"
 
 #: 3d-viewer/3d_cache/dialogs/panel_prev_model.cpp:641
 msgid "Invalid X scale"
-msgstr ""
+msgstr "Escala X no vàlida"
 
 #: 3d-viewer/3d_cache/dialogs/panel_prev_model.cpp:652
 msgid "Invalid Y scale"
-msgstr ""
+msgstr "Escala Y no vàlida"
 
 #: 3d-viewer/3d_cache/dialogs/panel_prev_model.cpp:663
 msgid "Invalid Z scale"
-msgstr ""
+msgstr "Escala Z no vàlida"
 
 #: 3d-viewer/3d_cache/sg/ifsg_api.cpp:333
 msgid "no such file"
@@ -397,7 +405,7 @@ msgstr "Crea capes"
 #: 3d-viewer/3d_canvas/cinfo3d_visu.cpp:461
 #: pcbnew/dialogs/dialog_export_step.cpp:233
 msgid "Cannot determine the board outline."
-msgstr ""
+msgstr "No s'ha pogut determinar la vora de la placa."
 
 #: 3d-viewer/3d_canvas/create_layer_items.cpp:248
 msgid "Create tracks and vias"
@@ -526,8 +534,9 @@ msgid "Rendering: %.0f %%"
 msgstr "Renderització: %.0f %%"
 
 #: 3d-viewer/3d_rendering/3d_render_raytracing/c3d_render_raytracing.cpp:926
+#, fuzzy
 msgid "Rendering: Post processing shader"
-msgstr ""
+msgstr "Renderització:"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:52 cvpcb/menubar.cpp:108
 #: eeschema/menubar.cpp:114 eeschema/menubar_libedit.cpp:356
@@ -2310,7 +2319,7 @@ msgstr "Paper"
 
 #: common/dialogs/dialog_page_settings_base.cpp:36
 msgid "dummy text"
-msgstr ""
+msgstr "text provisional"
 
 #: common/dialogs/dialog_page_settings_base.cpp:42
 #: pcbnew/dialogs/dialog_edit_footprint_text_base.cpp:121
@@ -2443,14 +2452,13 @@ msgid "Info: "
 msgstr "Informació: "
 
 #: common/dialogs/wx_html_report_panel.cpp:387
-#, fuzzy
 msgid "Save Report to File"
-msgstr "Desa el fitxer de l'informe"
+msgstr "Desa l'informe a un fitxer"
 
 #: common/dialogs/wx_html_report_panel.cpp:404
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot write report to file \"%s\"."
-msgstr "No es pot escriure l'informe al fitxer «%s»."
+msgstr "No es pot escriure l'informe al fitxer \"%s\"."
 
 #: common/dialogs/wx_html_report_panel.cpp:406
 msgid "File save error"
@@ -2519,14 +2527,14 @@ msgid "clipboard"
 msgstr "porta-retalls"
 
 #: common/dsnlexer.cpp:356 common/dsnlexer.cpp:364
-#, fuzzy, c-format
+#, c-format
 msgid "Expecting \"%s\""
-msgstr "S'espera «%s»"
+msgstr "S'espera \"%s\""
 
 #: common/dsnlexer.cpp:372 common/dsnlexer.cpp:388
-#, fuzzy, c-format
+#, c-format
 msgid "Unexpected \"%s\""
-msgstr "Inesperat «%s»"
+msgstr "\"%s\" inesperat"
 
 #: common/dsnlexer.cpp:380
 #, c-format
@@ -2534,9 +2542,9 @@ msgid "%s is a duplicate"
 msgstr "%s és un duplicat"
 
 #: common/dsnlexer.cpp:433
-#, fuzzy, c-format
+#, c-format
 msgid "need a NUMBER for \"%s\""
-msgstr "necessita un NÚMERO per «%s»"
+msgstr "necessita un NÚMERO per \"%s\""
 
 #: common/dsnlexer.cpp:705 common/dsnlexer.cpp:765
 msgid "Un-terminated delimited string"
@@ -2575,7 +2583,7 @@ msgstr ""
 
 #: common/eda_base_frame.cpp:535
 msgid "Get involved with KiCad"
-msgstr "Introducció a KiCad"
+msgstr "Involucreu-vos en el KiCad"
 
 #: common/eda_base_frame.cpp:567
 #, fuzzy, c-format
@@ -3188,9 +3196,8 @@ msgid " (not supported in Legacy Toolset)"
 msgstr ""
 
 #: common/widgets/gal_options_panel.cpp:83
-#, fuzzy
 msgid "Accelerated Graphics:"
-msgstr "Gràfics:"
+msgstr "Gràfics accelerats:"
 
 #: common/widgets/gal_options_panel.cpp:86
 msgid "No Antialiasing"
@@ -3213,9 +3220,8 @@ msgid "Supersampling (4x)"
 msgstr ""
 
 #: common/widgets/gal_options_panel.cpp:107
-#, fuzzy
 msgid "Grid Options"
-msgstr "Opcions genèriques"
+msgstr "Opcions de la quadrícula"
 
 #: common/widgets/gal_options_panel.cpp:110
 msgid "Dots"
@@ -3231,9 +3237,8 @@ msgid "Small crosses"
 msgstr "Creus petites"
 
 #: common/widgets/gal_options_panel.cpp:116
-#, fuzzy
 msgid "Grid style:"
-msgstr "Estil de la quadrícula"
+msgstr "Estil de la quadrícula:"
 
 #: common/widgets/gal_options_panel.cpp:128
 msgid "Grid thickness:"
@@ -3249,12 +3254,10 @@ msgid "Min grid spacing:"
 msgstr ""
 
 #: common/widgets/gal_options_panel.cpp:182
-#, fuzzy
 msgid "Cursor Options"
-msgstr "Opcions Gerber"
+msgstr "Opcions del cursor"
 
 #: common/widgets/gal_options_panel.cpp:196
-#, fuzzy
 msgid "Small crosshair"
 msgstr "Creu petita"
 
@@ -3263,9 +3266,8 @@ msgid "Full window crosshair"
 msgstr ""
 
 #: common/widgets/gal_options_panel.cpp:200
-#, fuzzy
 msgid "Cursor shape:"
-msgstr "Forma del cursor"
+msgstr "Forma del cursor:"
 
 #: common/widgets/gal_options_panel.cpp:208
 msgid "Cursor shape for drawing, placement and movement tools"
@@ -3330,32 +3332,28 @@ msgstr "Edita..."
 
 #: common/widgets/widget_hotkey_list.cpp:380
 #: eeschema/dialogs/dialog_edit_components_libid_base.cpp:93
-#, fuzzy
 msgid "Undo Changes"
-msgstr "Sense canvis"
+msgstr "Desfés els canvis"
 
 #: common/widgets/widget_hotkey_list.cpp:381
-#, fuzzy
 msgid "Restore Default"
-msgstr "Estableix al valor predeterminat"
+msgstr "Restableix al valor predeterminat"
 
 #: common/widgets/widget_hotkey_list.cpp:383
-#, fuzzy
 msgid "Undo All Changes"
-msgstr "Aplica els canvis"
+msgstr "Desfés tots els canvis"
 
 #: common/widgets/widget_hotkey_list.cpp:384
-#, fuzzy
 msgid "Restore All to Default"
 msgstr "Restableix-ho tot als valors predeterminats"
 
 #: common/widgets/widget_hotkey_list.cpp:484
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "\"%s\" is already assigned to \"%s\" in section \"%s\". Are you sure you "
 "want to change its assignment?"
 msgstr ""
-"<%s>ja està assignat a «%s» en la secció «%s». Esteu segur que voleu canviar "
+"«%s» ja està assignat a «%s» en la secció «%s». Esteu segur que voleu canviar "
 "la seva assignació?"
 
 #: common/widgets/widget_hotkey_list.cpp:489
