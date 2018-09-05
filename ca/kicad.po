@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2018-09-02 19:34+0100\n"
+"PO-Revision-Date: 2018-09-05 15:08+0100\n"
 "Last-Translator: Orestes Mas <orestes@tsc.upc.edu>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -4264,6 +4264,10 @@ msgid ""
 "the sheet \"%s\" or one of it's subsheets as a parent somewhere in the "
 "schematic hierarchy."
 msgstr ""
+"No es poden fer els canvis al full perquè el full de destinació ja conté el"
+" full «%s» "
+"o algun dels seus subfulls com a pare en algun lloc de la jerarquia"
+" d'esquemes."
 
 #: eeschema/class_libentry.cpp:104 eeschema/class_libentry.cpp:236
 msgid "none"
@@ -4437,9 +4441,8 @@ msgid "Clear and annotate all of the symbols on the entire schematic?"
 msgstr "Voleu netejar i anotar tots els components de tot l'esquemàtic?"
 
 #: eeschema/dialogs/dialog_annotate.cpp:208
-#, fuzzy
 msgid "Clear and annotate all of the symbols on the current sheet?"
-msgstr "Voleu netejar i anotar tots els components del full actual?"
+msgstr "Voleu netejar i anotar tots els símbols del full actual?"
 
 #: eeschema/dialogs/dialog_annotate.cpp:210
 msgid ""
@@ -4457,7 +4460,7 @@ msgstr "Voleu netejar les anotacions existents de tot l'esquemàtic?"
 
 #: eeschema/dialogs/dialog_annotate.cpp:255
 msgid "Clear the existing annotation for the current sheet?"
-msgstr "Voleu netejar les anotacions existents del full actual?"
+msgstr "Voleu netejar les anotacions existents al full actual?"
 
 #: eeschema/dialogs/dialog_annotate.cpp:257
 msgid ""
@@ -4524,31 +4527,28 @@ msgid "Options:"
 msgstr "Opcions:"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:87
-#, fuzzy
 msgid "Numbering:"
-msgstr "Número"
+msgstr "Numeració:"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:94
-#, fuzzy
 msgid "Use first free number after:"
-msgstr "Utilitza el primer número lliure"
+msgstr "Utilitza el primer número lliure posterior:"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:100
 msgid "First free after sheet number X 100"
-msgstr ""
+msgstr "El primer lliure després del full X 100"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:103
 msgid "First free after sheet number X 1000"
-msgstr ""
+msgstr "El primer lliure després del full X 1000"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:124
 msgid "Keep this dialog open"
 msgstr "Mantén aquest diàleg obert"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:136
-#, fuzzy
 msgid "Don't ask for confirmation"
-msgstr "Demana sempre la confirmació"
+msgstr "No demanis la confirmació"
 
 #: eeschema/dialogs/dialog_annotate_base.cpp:152
 msgid "Annotate"
@@ -4991,7 +4991,7 @@ msgstr "Suprimeix els camps"
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:989
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:798
 msgid "Show Datasheet"
-msgstr "Mostra el full de dades"
+msgstr "Mostra el full d'especificacions"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:991
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:800
@@ -5000,6 +5000,9 @@ msgid ""
 "If your datasheet is given as an http:// link, then pressing this button "
 "should bring it up in your webbrowser."
 msgstr ""
+"Si doneu el vostre full d'especificacions com a enllaç http://, aleshores"
+" prement "
+"aquest botó s'hauria d'obrir al vostre navegador."
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:996
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:805
@@ -5014,7 +5017,7 @@ msgstr "Obre el navegador d'empremtes per a triar i assignar l'empremta."
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:1004
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib.cpp:813
 msgid "Used only for fields Footprint and Datasheet."
-msgstr ""
+msgstr "Només s'utilitza als camps d'«empremta» i «full d'especificacions»."
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic.cpp:1143
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:41
@@ -5306,6 +5309,9 @@ msgid ""
 "If your datasheet is an http:// link or a complete file path, then it may "
 "show in your browser by pressing this button."
 msgstr ""
+"Si doneu el vostre full d'especificacions com a enllaç http://, aleshores"
+" prement "
+"aquest botó s'hauria d'obrir al vostre navegador."
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:247
 #, fuzzy
@@ -6019,6 +6025,8 @@ msgid ""
 "Similar labels are labels (inside a sheet) which differs only by upper/lower "
 "case"
 msgstr ""
+"Les etiquetes similars són etiquetes (dins d'un full) que només difereixen en "
+"les majúscules i minúscules."
 
 #: eeschema/dialogs/dialog_erc_base.cpp:130
 #, fuzzy
@@ -6077,7 +6085,7 @@ msgstr "Empremta"
 #: eeschema/lib_field.cpp:461 eeschema/libedit.cpp:702
 #: eeschema/template_fieldnames.cpp:50
 msgid "Datasheet"
-msgstr "Full de dades"
+msgstr "Full d'especificacions"
 
 #: eeschema/dialogs/dialog_fields_editor_global_base.cpp:29
 #, fuzzy
@@ -6768,6 +6776,9 @@ msgid ""
 "or in black and white mode, better to print it when using  black and white "
 "printers"
 msgstr ""
+"Escolliu si voleu dibuixar el full tal i com apareix en pantalla,\n"
+"o en blanc i negre, que és més adient quan s'ha d'imprimir en impressores "
+"de blanc i negre."
 
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:106
 msgid "Plot border and title block"
@@ -8007,7 +8018,7 @@ msgstr ""
 
 #: eeschema/drc_erc_item.cpp:42
 msgid "Duplicate sheet names within a given sheet"
-msgstr ""
+msgstr "Noms de full duplicats dins d'un full donat"
 
 #: eeschema/drc_erc_item.cpp:44
 msgid "Pin not connected (and no connect symbol found on this pin)"
@@ -8213,22 +8224,22 @@ msgstr ""
 " ** Missatges ERC: %d Errors %d Advertències %d\n"
 
 #: eeschema/erc.cpp:883
-#, fuzzy, c-format
+#, c-format
 msgid "Global label \"%s\" (sheet \"%s\") looks like:"
-msgstr "L'etiqueta global «%s» (full «%s») sembla:"
+msgstr "L'etiqueta global «%s» (full «%s») s'assembla a:"
 
 #: eeschema/erc.cpp:884
-#, fuzzy, c-format
+#, c-format
 msgid "Local label \"%s\" (sheet \"%s\") looks like:"
-msgstr "L'etiqueta local «%s» (full «%s») sembla:"
+msgstr "L'etiqueta local «%s» (full «%s») s'assembla a:"
 
 #: eeschema/erc.cpp:892
-#, fuzzy, c-format
+#, c-format
 msgid "Global label \"%s\" (sheet \"%s\")"
 msgstr "Etiqueta global «%s» (full «%s»)"
 
 #: eeschema/erc.cpp:893
-#, fuzzy, c-format
+#, c-format
 msgid "Local label \"%s\" (sheet \"%s\")"
 msgstr "Etiqueta local «%s» (full «%s»)"
 
@@ -8280,6 +8291,8 @@ msgid ""
 "load \n"
 "hierarchical sheet schematics."
 msgstr ""
+"No s'ha pogut carregar l'esquemàtic sencer. S'han produït errors\n"
+"en carregar esquemàtics en fulls jeràrquics."
 
 #: eeschema/files-io.cpp:316 eeschema/files-io.cpp:882
 #, fuzzy, c-format
@@ -8312,6 +8325,8 @@ msgid ""
 "The entire schematic could not be load.  Errors occurred attempting to load "
 "hierarchical sheet schematics."
 msgstr ""
+"No s'ha pogut carregar l'esquemàtic sencer. S'han produït errors "
+"en carregar esquemàtics en fulls jeràrquics."
 
 #: eeschema/files-io.cpp:456 eeschema/sheet.cpp:284
 #, fuzzy, c-format
@@ -8363,6 +8378,8 @@ msgstr "Carrega sense desar"
 #, c-format
 msgid "Design rule check marker found in sheet %s at %0.3f%s, %0.3f%s"
 msgstr ""
+"S'ha trobat un marcador de comprovació de regles de disseny al full %s, "
+"en la posició %0.3f%s, %0.3f%s"
 
 #: eeschema/find.cpp:105
 msgid "No more markers were found."
@@ -8528,13 +8545,12 @@ msgstr ""
 "globals amb el mateix nom"
 
 #: eeschema/help_common_strings.h:66
-#, fuzzy
 msgid ""
 "Place a hierarchical label. Label will be seen as a hierarchical pin in the "
 "sheet"
 msgstr ""
-"Afegeix una etiqueta jeràrquica. L'etiqueta es veurà com a un pin jeràrquic "
-"al símbol del full"
+"Afegeix una etiqueta jeràrquica. L'etiqueta es veurà com un pin jeràrquic "
+"al full"
 
 #: eeschema/help_common_strings.h:68
 msgid "Place junction"
@@ -8633,6 +8649,7 @@ msgstr "Arrel"
 #: eeschema/highlight_connection.cpp:51
 msgid "Error: duplicate sub-sheet names found in current sheet. Fix it"
 msgstr ""
+"Error: s'han trobat noms de subfulls duplicats en el full actual. Arregleu-ho."
 
 #: eeschema/hotkeys.cpp:93 gerbview/hotkeys.cpp:62
 #: pagelayout_editor/hotkeys.cpp:76 pcbnew/hotkeys.cpp:202
@@ -9749,7 +9766,6 @@ msgid "&Hierarchical Label"
 msgstr "Etiqueta &jeràrquica"
 
 #: eeschema/menubar.cpp:306
-#, fuzzy
 msgid "Hierar&chical Sheet"
 msgstr "Full &jeràrquic"
 
@@ -9781,6 +9797,7 @@ msgstr "&Nou"
 #: eeschema/menubar.cpp:367
 msgid "Clear current schematic hierarchy and start new schematic root sheet"
 msgstr ""
+"Neteja la jerarquia d'esquemes actual i comença un nou full arrel d'esquema"
 
 #: eeschema/menubar.cpp:370 pagelayout_editor/menubar.cpp:67
 #: pcbnew/menubar_pcb_editor.cpp:802
@@ -9809,32 +9826,28 @@ msgid "&Save"
 msgstr "De&sa"
 
 #: eeschema/menubar.cpp:386
-#, fuzzy
 msgid "Save all sheets in schematic"
-msgstr "Desa tots els fulls al projecte de l'esquemàtic"
+msgstr "Desa tots els fulls de l'esquemàtic"
 
 #: eeschema/menubar.cpp:391
-#, fuzzy
 msgid "Save &Current Sheet"
-msgstr "Desa únicament el full a&ctual"
+msgstr "Desa el full a&ctual"
 
 #: eeschema/menubar.cpp:392
 msgid "Save only current schematic sheet"
-msgstr "Desa únicament el full de l'esquemàtic actual"
+msgstr "Desa únicament el full de l'esquema actual"
 
 #: eeschema/menubar.cpp:397
-#, fuzzy
 msgid "Save C&urrent Sheet As..."
-msgstr "Anomena i desa el f&ull actual"
+msgstr "Desa el f&ull actual com a..."
 
 #: eeschema/menubar.cpp:401
 msgid "Save current schematic sheet with new name"
-msgstr "Anomena i desa el full de l'esquemàtic actual"
+msgstr "Desa el full de l'esquemàtic actual amb un nom nou"
 
 #: eeschema/menubar.cpp:408
-#, fuzzy
 msgid "App&end Schematic Sheet..."
-msgstr "&Obre un projecte d'esquemàtic"
+msgstr "&Afegeix un full d'esquema"
 
 #: eeschema/menubar.cpp:409
 #, fuzzy
@@ -10385,7 +10398,7 @@ msgstr ""
 
 #: eeschema/netlist_generator.cpp:184
 msgid "Error: duplicate sheet names. Continue?"
-msgstr ""
+msgstr "Error: noms de full duplicats. Continuo?"
 
 #: eeschema/netlist_generator.cpp:250
 msgid "No Objects"
@@ -11312,7 +11325,7 @@ msgstr "empremta"
 
 #: eeschema/sch_validators.cpp:88
 msgid "data sheet"
-msgstr "full de dades"
+msgstr "full d'especificacions"
 
 #: eeschema/sch_validators.cpp:89
 msgid "user defined"
@@ -11365,11 +11378,11 @@ msgstr "Error de validació de camp"
 
 #: eeschema/schedit.cpp:255
 msgid "There are no undefined labels in this sheet to clean up."
-msgstr ""
+msgstr "En aquest full no hi ha etiquetes indefinides que calgui netejar."
 
 #: eeschema/schedit.cpp:259
 msgid "Do you wish to cleanup this sheet?"
-msgstr ""
+msgstr "Voleu netejar aquest full?"
 
 #: eeschema/schedit.cpp:510
 msgid "Highlight specific net"
@@ -11484,7 +11497,7 @@ msgstr "El nom del fitxer no és vàlid!"
 #: eeschema/sheet.cpp:94
 #, c-format
 msgid "A sheet named \"%s\" already exists."
-msgstr ""
+msgstr "Ja existeix un full anomenat «%s»."
 
 #: eeschema/sheet.cpp:142
 #, fuzzy, c-format
@@ -11877,7 +11890,7 @@ msgstr "Mostra com a peça de conversió \"De Morgan\""
 
 #: eeschema/tool_lib.cpp:205
 msgid "Show associated datasheet or document"
-msgstr ""
+msgstr "Mostra el full d'especificacions o document associat"
 
 #: eeschema/tool_lib.cpp:227
 msgid ""
@@ -11911,9 +11924,8 @@ msgid "Open schematic"
 msgstr "Obre un esquemàtic"
 
 #: eeschema/tool_sch.cpp:70
-#, fuzzy
 msgid "Save (all sheets)"
-msgstr "Deixa el full"
+msgstr "Desa (tots els fulls)"
 
 #: eeschema/tool_sch.cpp:75
 msgid "Edit Page settings"
@@ -12407,6 +12419,8 @@ msgid ""
 "Choose if you want to print sheets in color, or force the black and white "
 "mode."
 msgstr ""
+"Escolliu si voleu imprimir els fulls en color, o forçar el mode de blanc i"
+" negre."
 
 #: gerbview/dialogs/dialog_print_using_printer_base.cpp:97
 #: pcbnew/dialogs/dialog_print_for_modedit_base.cpp:48
@@ -13668,7 +13682,7 @@ msgstr ""
 
 #: kicad/commandframe.cpp:107
 msgid "Worksheet layout editor"
-msgstr ""
+msgstr "Editor de la disposició del full de treball"
 
 #: kicad/dialogs/dialog_template_selector.cpp:123
 msgid "<html><h1>Template Selector</h1></html>"
@@ -16949,7 +16963,7 @@ msgstr "%s no trobat"
 #: pcbnew/cross-probing.cpp:169
 #, c-format
 msgid "Selecting all from sheet \"%s\""
-msgstr ""
+msgstr "Seleccionant tot el del full «%s»"
 
 #: pcbnew/cross-probing.cpp:219
 #, c-format
