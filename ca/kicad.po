@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2018-09-05 15:08+0100\n"
+"PO-Revision-Date: 2018-09-05 15:45+0100\n"
 "Last-Translator: Orestes Mas <orestes@tsc.upc.edu>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -1166,11 +1166,11 @@ msgstr "Restableix la vista"
 
 #: 3d-viewer/3d_viewer/hotkeys.cpp:43
 msgid "View Front"
-msgstr ""
+msgstr "Vista frontal"
 
 #: 3d-viewer/3d_viewer/hotkeys.cpp:44
 msgid "View Back"
-msgstr ""
+msgstr "Vista posterior"
 
 #: 3d-viewer/3d_viewer/hotkeys.cpp:45
 msgid "View Left"
@@ -5083,7 +5083,7 @@ msgstr "+90"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:48
 msgid "+180"
-msgstr ""
+msgstr "+180+180"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:48
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:134
@@ -5112,7 +5112,7 @@ msgstr "Reflecteix l'eix y"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:58
 msgid "Aspect:"
-msgstr ""
+msgstr "Aspecte:"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:60
 #: eeschema/dialogs/dialog_edit_libentry_fields_in_lib_base.cpp:81
@@ -6060,7 +6060,7 @@ msgstr "Camp"
 
 #: eeschema/dialogs/dialog_fields_editor_global.cpp:544
 msgid "Group By"
-msgstr ""
+msgstr "Agrupar per"
 
 #: eeschema/dialogs/dialog_fields_editor_global.cpp:694
 #: eeschema/dialogs/dialog_rescue_each.cpp:113 eeschema/lib_field.cpp:440
@@ -6697,19 +6697,19 @@ msgstr "A0"
 
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:61
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:61
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:61
 msgid "D"
-msgstr ""
+msgstr "D"
 
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:61
 msgid "E"
-msgstr ""
+msgstr "E"
 
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:67
 msgid "Bottom left"
@@ -6717,7 +6717,7 @@ msgstr ""
 
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:67
 msgid "Center on page"
-msgstr ""
+msgstr "Centre de la pàgina"
 
 #: eeschema/dialogs/dialog_plot_schematic_base.cpp:69
 #, fuzzy
@@ -7118,7 +7118,7 @@ msgstr "Freqüència inicial [Hz]"
 #: eeschema/dialogs/dialog_sim_settings_base.cpp:62
 #: eeschema/dialogs/dialog_sim_settings_base.cpp:73
 msgid "Hertz"
-msgstr ""
+msgstr "Hertz"
 
 #: eeschema/dialogs/dialog_sim_settings_base.cpp:66
 #, fuzzy
@@ -7257,7 +7257,7 @@ msgstr "Pas de temps [s]"
 #: eeschema/dialogs/dialog_spice_model_base.cpp:551
 #: eeschema/dialogs/dialog_spice_model_base.cpp:562
 msgid "seconds"
-msgstr ""
+msgstr "segons"
 
 #: eeschema/dialogs/dialog_sim_settings_base.cpp:378
 #, fuzzy
@@ -7360,7 +7360,7 @@ msgstr "f"
 
 #: eeschema/dialogs/dialog_spice_model_base.cpp:85
 msgid "femto"
-msgstr ""
+msgstr "femto"
 
 #: eeschema/dialogs/dialog_spice_model_base.cpp:89
 msgid "1e-15"
@@ -7431,7 +7431,7 @@ msgstr "1e3"
 
 #: eeschema/dialogs/dialog_spice_model_base.cpp:153
 msgid "meg"
-msgstr ""
+msgstr "meg"
 
 #: eeschema/dialogs/dialog_spice_model_base.cpp:157
 msgid "mega"
@@ -7486,7 +7486,7 @@ msgstr "Simula el circuit"
 
 #: eeschema/dialogs/dialog_spice_model_base.cpp:239
 msgid "BJT"
-msgstr ""
+msgstr "BJT"
 
 #: eeschema/dialogs/dialog_spice_model_base.cpp:240
 msgid "MOSFET"
@@ -7520,7 +7520,7 @@ msgstr "DCode:"
 #: eeschema/dialogs/dialog_spice_model_base.cpp:518
 #: eeschema/dialogs/dialog_spice_model_base.cpp:607
 msgid "Volts/Amps"
-msgstr ""
+msgstr "Volts/Ampères"
 
 #: eeschema/dialogs/dialog_spice_model_base.cpp:295
 #, fuzzy
@@ -7617,7 +7617,7 @@ msgstr "Factor d'esmorteïment [1/s]"
 
 #: eeschema/dialogs/dialog_spice_model_base.cpp:482
 msgid "1/seconds"
-msgstr ""
+msgstr "1/segons"
 
 #: eeschema/dialogs/dialog_spice_model_base.cpp:490
 msgid "Sinusoidal"
@@ -7658,7 +7658,7 @@ msgstr "Temps [s]"
 
 #: eeschema/dialogs/dialog_spice_model_base.cpp:596
 msgid "second"
-msgstr ""
+msgstr "segon"
 
 #: eeschema/dialogs/dialog_spice_model_base.cpp:629
 msgid "Piece-wise Linear"
@@ -7760,12 +7760,12 @@ msgstr "Aquest nom ja existeix i s'avorta"
 #: eeschema/dialogs/dialog_sym_lib_table.cpp:385
 #: pcbnew/dialogs/dialog_fp_lib_table.cpp:658
 msgid "Skip"
-msgstr ""
+msgstr "Omet"
 
 #: eeschema/dialogs/dialog_sym_lib_table.cpp:386
 #: pcbnew/dialogs/dialog_fp_lib_table.cpp:659
 msgid "Skip All Remaining Duplicates"
-msgstr ""
+msgstr "Omet tots els duplicats restants"
 
 #: eeschema/dialogs/dialog_sym_lib_table.cpp:387
 #: pcbnew/dialogs/dialog_fp_lib_table.cpp:660
@@ -9682,12 +9682,12 @@ msgstr "&Importa"
 #: eeschema/menubar.cpp:197 gerbview/menubar.cpp:227
 #: pcbnew/menubar_footprint_editor.cpp:256 pcbnew/menubar_pcb_editor.cpp:651
 msgid "Use imperial units"
-msgstr ""
+msgstr "Empra les unitats imperials"
 
 #: eeschema/menubar.cpp:201 gerbview/menubar.cpp:231
 #: pcbnew/menubar_footprint_editor.cpp:260 pcbnew/menubar_pcb_editor.cpp:655
 msgid "&Metric"
-msgstr ""
+msgstr "&Mètric"
 
 #: eeschema/menubar.cpp:201 gerbview/menubar.cpp:231
 #: pcbnew/menubar_footprint_editor.cpp:260 pcbnew/menubar_pcb_editor.cpp:655
@@ -11574,7 +11574,7 @@ msgstr "Prova els senyals en l'esquemàtic"
 
 #: eeschema/sim/sim_plot_frame.cpp:176 eeschema/sim/sim_plot_frame_base.cpp:241
 msgid "Tune"
-msgstr ""
+msgstr "Ajustar"
 
 #: eeschema/sim/sim_plot_frame.cpp:177
 msgid "Tune component values"
@@ -11751,11 +11751,11 @@ msgstr "Freqüència"
 
 #: eeschema/sim/sim_plot_panel.cpp:381
 msgid "Gain"
-msgstr ""
+msgstr "Guany"
 
 #: eeschema/sim/sim_plot_panel.cpp:382
 msgid "Phase"
-msgstr ""
+msgstr "Fase"
 
 #: eeschema/sim/sim_plot_panel.cpp:387
 #, fuzzy
@@ -11769,7 +11769,7 @@ msgstr "Caiguda de voltatge"
 
 #: eeschema/sim/sim_plot_panel.cpp:394
 msgid "noise [(V or A)^2/Hz]"
-msgstr ""
+msgstr "soroll [(V or A)^2/Hz]"
 
 #: eeschema/sim/sim_plot_panel.cpp:398
 #, fuzzy
@@ -12484,7 +12484,7 @@ msgstr "Mostra els límits de la pàgina:"
 
 #: gerbview/dialogs/dialog_show_page_borders_base.h:50
 msgid "Page Borders"
-msgstr ""
+msgstr "Vores de la pàgina"
 
 #: gerbview/dialogs/gerbview_dialog_display_options_frame_base.cpp:24
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:108
@@ -12571,7 +12571,7 @@ msgstr "No centris ni desplacis el cursor en fer zoom"
 #: gerbview/dialogs/gerbview_dialog_display_options_frame_base.cpp:87
 #: pcbnew/dialogs/dialog_general_options_BoardEditor_base.cpp:44
 msgid "User Interface:"
-msgstr ""
+msgstr "Interfície d'usuari"
 
 #: gerbview/dialogs/gerbview_dialog_display_options_frame_base.h:70
 msgid "Gerbview Options"
@@ -12603,7 +12603,7 @@ msgstr "Visibles"
 
 #: gerbview/excellon_read_drill_file.cpp:183
 msgid "No room to load file"
-msgstr ""
+msgstr "No hi a espai per carregar el fitxer"
 
 #: gerbview/excellon_read_drill_file.cpp:192 pcbnew/pcbnew_config.cpp:199
 #, c-format
@@ -12886,7 +12886,7 @@ msgstr "Habilita l'eliminació automàtica de pistes"
 
 #: gerbview/gerbview_frame.cpp:222 pcbnew/pcb_edit_frame.cpp:478
 msgid "&No Thanks"
-msgstr ""
+msgstr "&No, gràcies"
 
 #: gerbview/gerbview_frame.cpp:656
 msgid "D Codes"
@@ -12914,7 +12914,7 @@ msgstr "Nom de la imatge: «%s» Nom de la capa «%s»"
 
 #: gerbview/gerbview_frame.cpp:801
 msgid "X2 attr"
-msgstr ""
+msgstr "atrib X2"
 
 #: gerbview/gerbview_layer_widget.cpp:95 pcbnew/class_track.cpp:1284
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:315
@@ -12942,7 +12942,7 @@ msgstr "Mostra la identificació dels DCodes"
 
 #: gerbview/gerbview_layer_widget.cpp:118
 msgid "Neg. Obj."
-msgstr ""
+msgstr "Obj. Neg.."
 
 #: gerbview/gerbview_layer_widget.cpp:119
 msgid "Show negative objects in this color"
@@ -13293,21 +13293,22 @@ msgstr ""
 #: gerbview/menubar.cpp:315 pcbnew/menubar_footprint_editor.cpp:466
 #: pcbnew/menubar_pcb_editor.cpp:222
 msgid "Modern Toolset (&Accelerated)"
-msgstr ""
+msgstr "Eines modernes (&accelerades)"
 
 #: gerbview/menubar.cpp:318 pcbnew/menubar_footprint_editor.cpp:469
 #: pcbnew/menubar_pcb_editor.cpp:225
 msgid "Use Modern Toolset with hardware-accelerated graphics (recommended)"
 msgstr ""
+"Empra les eines modernes amb acceleració gràfica per maquinari (recomanat)"
 
 #: gerbview/menubar.cpp:321 pcbnew/menubar_pcb_editor.cpp:228
 msgid "Modern Toolset (Fallba&ck)"
-msgstr ""
+msgstr "Eines modernes (%reserva)"
 
 #: gerbview/menubar.cpp:324 pcbnew/menubar_footprint_editor.cpp:475
 #: pcbnew/menubar_pcb_editor.cpp:231
 msgid "Use Modern Toolset with software graphics (fall-back)"
-msgstr ""
+msgstr "Empra les eines modernes amb gràfics per programari (alternatives)"
 
 #: gerbview/menubar.cpp:332
 msgid "&List DCodes"
@@ -13448,7 +13449,7 @@ msgstr ""
 
 #: gerbview/toolbars_gerber.cpp:149
 msgid "Attr:"
-msgstr ""
+msgstr "Atr:"
 
 #: gerbview/toolbars_gerber.cpp:160
 msgid "DCode:"
@@ -13934,11 +13935,11 @@ msgstr "Desa el projecte actual"
 
 #: kicad/menubar.cpp:263
 msgid "EAGLE CAD..."
-msgstr ""
+msgstr "EAGLE CAD..."
 
 #: kicad/menubar.cpp:264
 msgid "Import EAGLE CAD XML schematic and board"
-msgstr ""
+msgstr "Importa l'esquema i la placa EAGLE CAD XML"
 
 #: kicad/menubar.cpp:270
 #, fuzzy
@@ -14051,7 +14052,7 @@ msgstr "Edita l'esquemàtic"
 
 #: kicad/menubar.cpp:406
 msgid "Edit PCB Layout"
-msgstr ""
+msgstr "Edita la disposició de la PCB"
 
 #: kicad/menubar.cpp:410
 #, fuzzy
@@ -14327,11 +14328,11 @@ msgstr "Elimina el fitxer"
 
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:30
 msgid "Y start:"
-msgstr ""
+msgstr "Y inicial:"
 
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:44
 msgid "X start:"
-msgstr ""
+msgstr "X inicial:"
 
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:64
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:124
@@ -14370,11 +14371,11 @@ msgstr "Inferior esquerra"
 
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:90
 msgid "X end:"
-msgstr ""
+msgstr "X final:"
 
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.cpp:104
 msgid "Y end:"
-msgstr ""
+msgstr "Y final:"
 
 #: pagelayout_editor/dialogs/dialog_new_dataitem_base.h:72
 msgid "New Item"
@@ -14382,7 +14383,7 @@ msgstr "Nou element"
 
 #: pagelayout_editor/dialogs/dialogs_for_printing.cpp:219
 msgid "Print Page Layout"
-msgstr ""
+msgstr "Imprimeix la disposició de la pàgina"
 
 #: pagelayout_editor/dialogs/dialogs_for_printing.cpp:224
 msgid "An error occurred attempting to print the page layout."
@@ -14566,6 +14567,8 @@ msgid ""
 "The current page layout has been modified.\n"
 "Do you wish to discard the changes?"
 msgstr ""
+"La disposició actual de la pàgina s'ha modificat.\n"
+"Voleu descartar els canvis?"
 
 #: pagelayout_editor/files.cpp:63 pagelayout_editor/files.cpp:151
 #, fuzzy, c-format
@@ -15307,15 +15310,15 @@ msgstr "Espaiament elèctric"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:622
 msgid "Microstrip Line"
-msgstr ""
+msgstr "Línia Microstrip"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:622
 msgid "Coplanar wave guide"
-msgstr ""
+msgstr "Guía d'ones coplanar"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:622
 msgid "Coplanar wave guide with ground plane"
-msgstr ""
+msgstr "Guía d'ones coplanar amb pla de massa"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:622
 msgid "Rectangular Waveguide"
@@ -15327,11 +15330,11 @@ msgstr "Línia coaxial"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:622
 msgid "Coupled Microstrip Line"
-msgstr ""
+msgstr "Línia Microstrip acoblada"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:622
 msgid "Stripline"
-msgstr ""
+msgstr "Stripline"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:622
 msgid "Twisted Pair"
@@ -15367,11 +15370,11 @@ msgstr "TanD"
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:669
 #: pcb_calculator/transline_ident.cpp:150
 msgid "Rho:"
-msgstr ""
+msgstr "Rho:"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:671
 msgid "Specific resistance in ohms * meters"
-msgstr ""
+msgstr "Resistència específica en ohm * metre"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:681
 #: pcb_calculator/transline_ident.cpp:171
@@ -15387,7 +15390,7 @@ msgstr "H"
 #: pcb_calculator/transline_ident.cpp:173
 #: pcb_calculator/transline_ident.cpp:343
 msgid "H_t:"
-msgstr ""
+msgstr "H_t:"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:705
 #: pcb_calculator/transline_ident.cpp:175
@@ -15403,7 +15406,7 @@ msgstr "T"
 #: pcb_calculator/transline_ident.cpp:177
 #: pcb_calculator/transline_ident.cpp:347
 msgid "Rough:"
-msgstr ""
+msgstr "Aproximat:"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:729
 #, fuzzy
@@ -15492,15 +15495,15 @@ msgstr "PI"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1049
 msgid "Tee"
-msgstr ""
+msgstr "Tee"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1049
 msgid "Bridged Tee"
-msgstr ""
+msgstr "Tee pontejada"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1049
 msgid "Resistive Splitter"
-msgstr ""
+msgstr "Divisor resistiu"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1051
 msgid "Attenuators:"
@@ -15582,7 +15585,7 @@ msgstr "3a banda"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1223
 msgid "4th Band"
-msgstr ""
+msgstr "4a. banda"
 
 #: pcb_calculator/dialogs/pcb_calculator_frame_base.cpp:1227
 msgid "Multiplier"
@@ -16035,7 +16038,7 @@ msgstr "Longitud de la guia d'ones"
 #: pcb_calculator/transline_ident.cpp:314
 #: pcb_calculator/transline_ident.cpp:418
 msgid "Din:"
-msgstr ""
+msgstr "Din::"
 
 #: pcb_calculator/transline_ident.cpp:314
 #: pcb_calculator/transline_ident.cpp:418
@@ -16667,7 +16670,7 @@ msgstr "Oval"
 
 #: pcbnew/class_pad.cpp:1166
 msgid "Trap"
-msgstr ""
+msgstr "Trampa"
 
 #: pcbnew/class_pad.cpp:1169
 msgid "Roundrect"
@@ -17331,7 +17334,7 @@ msgstr "Alleujament tèrmic"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:154
 msgid "THT thermal"
-msgstr ""
+msgstr "THT thermal"
 
 #: pcbnew/dialogs/dialog_copper_zones_base.cpp:161
 #, fuzzy
@@ -19276,7 +19279,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_gen_footprint_position_file_base.cpp:59
 msgid "ASCII"
-msgstr ""
+msgstr "ASCII"
 
 #: pcbnew/dialogs/dialog_gen_footprint_position_file_base.cpp:59
 msgid "CSV"
@@ -20628,7 +20631,7 @@ msgstr "mixt"
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1385
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:1424
 msgid "jumper"
-msgstr ""
+msgstr "pont"
 
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:309
 #: pcbnew/dialogs/dialog_layers_setup_base.cpp:345
@@ -21380,7 +21383,7 @@ msgstr "graus"
 
 #: pcbnew/dialogs/dialog_pad_basicshapes_properties.cpp:106
 msgid "Ring"
-msgstr ""
+msgstr "Anell"
 
 #: pcbnew/dialogs/dialog_pad_basicshapes_properties.cpp:131
 msgid "corners count"
@@ -21430,11 +21433,11 @@ msgstr "amplada %s"
 
 #: pcbnew/dialogs/dialog_pad_properties.cpp:806
 msgid "from "
-msgstr ""
+msgstr "des de"
 
 #: pcbnew/dialogs/dialog_pad_properties.cpp:807
 msgid "to "
-msgstr ""
+msgstr "a"
 
 #: pcbnew/dialogs/dialog_pad_properties.cpp:812
 msgid "center "
@@ -21442,7 +21445,7 @@ msgstr "centre "
 
 #: pcbnew/dialogs/dialog_pad_properties.cpp:813
 msgid "start "
-msgstr ""
+msgstr "inici"
 
 #: pcbnew/dialogs/dialog_pad_properties.cpp:814
 #, c-format
@@ -21451,7 +21454,7 @@ msgstr "angle %s"
 
 #: pcbnew/dialogs/dialog_pad_properties.cpp:819
 msgid "ring"
-msgstr ""
+msgstr "anell"
 
 #: pcbnew/dialogs/dialog_pad_properties.cpp:821
 msgid "circle"
@@ -21562,7 +21565,7 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_pad_properties.cpp:1964
 msgid "ring/circle"
-msgstr ""
+msgstr "anell/cercle"
 
 #: pcbnew/dialogs/dialog_pad_properties.cpp:1964
 msgid "polygon"
@@ -21781,7 +21784,7 @@ msgstr "Màscara de soldadura posterior"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:376
 msgid "Drafting notes"
-msgstr ""
+msgstr "Notes d'esbós"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:379
 msgid "E.C.O.1"
@@ -22718,11 +22721,11 @@ msgstr "Opcions de numeració del pad"
 
 #: pcbnew/dialogs/dialog_print_using_printer_base.cpp:141
 msgid "1 Page per layer"
-msgstr ""
+msgstr "1 pàgina per capa"
 
 #: pcbnew/dialogs/dialog_print_using_printer_base.cpp:141
 msgid "Single page"
-msgstr ""
+msgstr "Una sola pàgina"
 
 #: pcbnew/dialogs/dialog_print_using_printer_base.cpp:143
 #, fuzzy
@@ -22888,15 +22891,15 @@ msgstr ""
 
 #: pcbnew/dialogs/dialog_track_via_properties_base.cpp:208
 msgid "Micro"
-msgstr ""
+msgstr "Micro"
 
 #: pcbnew/dialogs/dialog_track_via_properties_base.cpp:208
 msgid "Blind/buried"
-msgstr ""
+msgstr "Cega/enterrada"
 
 #: pcbnew/dialogs/dialog_track_via_properties_base.cpp:219
 msgid "Start layer:"
-msgstr ""
+msgstr "Capa d'inici:"
 
 #: pcbnew/dialogs/dialog_track_via_properties_base.cpp:229
 msgid "End layer:"
@@ -25456,7 +25459,7 @@ msgstr "&Empremta"
 
 #: pcbnew/menubar_pcb_editor.cpp:358
 msgid "&Via"
-msgstr ""
+msgstr "&Via"
 
 #: pcbnew/menubar_pcb_editor.cpp:359
 #, fuzzy
@@ -25929,7 +25932,7 @@ msgstr "Exportació IDFv3 de plaques i components"
 
 #: pcbnew/menubar_pcb_editor.cpp:995
 msgid "S&TEP..."
-msgstr ""
+msgstr "S&TEP..."
 
 #: pcbnew/menubar_pcb_editor.cpp:995
 msgid "STEP export"
@@ -25937,7 +25940,7 @@ msgstr "Exportació STEP"
 
 #: pcbnew/menubar_pcb_editor.cpp:999
 msgid "&SVG..."
-msgstr ""
+msgstr "&SVG..."
 
 #: pcbnew/menubar_pcb_editor.cpp:1000
 msgid "Export board file in Scalable Vector Graphics format"
@@ -26682,11 +26685,11 @@ msgstr "Mostra els orígens del text i l'empremta com a una creu"
 
 #: pcbnew/pcb_layer_widget.cpp:88
 msgid "Worksheet"
-msgstr ""
+msgstr "Full de treball"
 
 #: pcbnew/pcb_layer_widget.cpp:88
 msgid "Show worksheet"
-msgstr ""
+msgstr "Mostra el full de treball"
 
 #: pcbnew/pcb_layer_widget.cpp:89
 msgid "Cursor"
