@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: kicad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 21:11+0200\n"
-"PO-Revision-Date: 2018-09-05 15:45+0100\n"
+"PO-Revision-Date: 2018-09-05 16:32+0100\n"
 "Last-Translator: Orestes Mas <orestes@tsc.upc.edu>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -161,9 +161,8 @@ msgid "Path"
 msgstr "Camí"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig_base.cpp:54
-#, fuzzy
 msgid "Configure Environment Variables"
-msgstr "Variable d'entorn"
+msgstr "Configura les variables d'entorn"
 
 #: 3d-viewer/3d_cache/dialogs/dlg_3d_pathconfig_base.cpp:82
 #: eeschema/libedit.cpp:680 eeschema/viewlibs.cpp:242
@@ -595,16 +594,15 @@ msgstr "Redueix el z&oom"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:84 gerbview/menubar.cpp:203
 #: pcbnew/menubar_pcb_editor.cpp:621
-#, fuzzy
 msgid "Zoom to &Fit"
-msgstr "Redueix el zoom"
+msgstr "Escala per &ajustar"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:88 eeschema/menubar.cpp:183
 #: eeschema/menubar_libedit.cpp:171 eeschema/tool_viewlib.cpp:192
 #: gerbview/menubar.cpp:210 pcbnew/menubar_footprint_editor.cpp:235
 #: pcbnew/menubar_pcb_editor.cpp:630 pcbnew/tool_footprint_viewer.cpp:159
 msgid "&Redraw"
-msgstr "To&rna a traçar"
+msgstr "&Redibuixa"
 
 #: 3d-viewer/3d_viewer/3d_menubar.cpp:94 3d-viewer/3d_viewer/3d_toolbar.cpp:92
 #, fuzzy
@@ -994,12 +992,11 @@ msgstr "Redueix el zoom"
 #: pcbnew/footprint_wizard_frame.cpp:689 pcbnew/tool_footprint_editor.cpp:119
 #: pcbnew/tool_footprint_viewer.cpp:88
 msgid "Redraw view"
-msgstr "Torna a traçar la visualització"
+msgstr "Redibuixa la visualització"
 
 #: 3d-viewer/3d_viewer/3d_toolbar.cpp:87
-#, fuzzy
 msgid "Zoom to fit 3D model"
-msgstr "Zoom per ajustar la placa a la pantalla"
+msgstr "Escala per ajustar al model 3D"
 
 #: 3d-viewer/3d_viewer/3d_toolbar.cpp:131
 msgid "Enable/Disable orthographic projection"
@@ -3259,11 +3256,11 @@ msgstr "Opcions del cursor"
 
 #: common/widgets/gal_options_panel.cpp:196
 msgid "Small crosshair"
-msgstr "Creu petita"
+msgstr "Punt de mira petit"
 
 #: common/widgets/gal_options_panel.cpp:197
 msgid "Full window crosshair"
-msgstr ""
+msgstr "Punt de mira a finestra completa"
 
 #: common/widgets/gal_options_panel.cpp:200
 msgid "Cursor shape:"
@@ -3275,11 +3272,11 @@ msgstr ""
 
 #: common/widgets/gal_options_panel.cpp:214
 msgid "Always display crosshairs"
-msgstr ""
+msgstr "Mostra sempre el punt de mira"
 
 #: common/widgets/gal_options_panel.cpp:219
 msgid "Always display crosshairs (not in Legacy)"
-msgstr ""
+msgstr "Mostra sempre el punt de mira (no en gràfics obsolets)"
 
 #: common/widgets/mathplot.cpp:1765
 msgid "Center plot view to this position"
@@ -3592,14 +3589,12 @@ msgid "PNG file (*.png)|*."
 msgstr "Fitxer PNG (*.png)|*.png"
 
 #: common/zoom.cpp:283 pagelayout_editor/menubar.cpp:139
-#, fuzzy
 msgid "Redraw View"
-msgstr "Torna a traçar la visualització"
+msgstr "Redibuixa la visualització"
 
 #: common/zoom.cpp:285 pagelayout_editor/menubar.cpp:131
-#, fuzzy
 msgid "Zoom to Fit"
-msgstr "Redueix el zoom"
+msgstr "Escala per ajustar"
 
 #: common/zoom.cpp:304
 msgid "Zoom: "
@@ -3794,9 +3789,8 @@ msgid "No editor defined in KiCad. Please choose it."
 msgstr "No hi ha cap editor definit a Kicad. Seleccioneu-ne un"
 
 #: cvpcb/dialogs/dialog_config_equfiles.cpp:249
-#, fuzzy
 msgid "Footprint Association File"
-msgstr "Desa el fitxer de l'associació de l'empremta"
+msgstr "Fitxer d'associació d'empremtes"
 
 #: cvpcb/dialogs/dialog_config_equfiles.cpp:294
 #, fuzzy, c-format
@@ -3931,9 +3925,8 @@ msgid ""
 msgstr ""
 
 #: cvpcb/dialogs/fp_conflict_assignment_selector_base.h:53
-#, fuzzy
 msgid "Footprint Assignment Conflicts"
-msgstr "Desa el fitxer de l'associació de l'empremta"
+msgstr "Conflictes en l'assignació d'empremtes"
 
 #: cvpcb/display_footprints_frame.cpp:76
 msgid "Footprint Viewer"
@@ -3999,12 +3992,11 @@ msgstr "Redueix el zoom (F2)"
 
 #: cvpcb/display_footprints_frame.cpp:236
 msgid "Redraw view (F3)"
-msgstr "Torna a traçar la vista (F3)"
+msgstr "Redibuixa la vista (F3)"
 
 #: cvpcb/display_footprints_frame.cpp:239
-#, fuzzy
 msgid "Zoom to fit footprint (Home)"
-msgstr "Zoom automàtic (inici)"
+msgstr "Escala per ajustar a l'empremta (inici)"
 
 #: cvpcb/display_footprints_frame.cpp:243
 msgid "3D Display (Alt+3)"
@@ -4052,9 +4044,8 @@ msgid "&Save Schematic\tCtrl+S"
 msgstr "Desa l'esquemàtic"
 
 #: cvpcb/menubar.cpp:67
-#, fuzzy
 msgid "Configure &Paths..."
-msgstr "&Configura els camins"
+msgstr "&Configura els camins..."
 
 #: cvpcb/menubar.cpp:68 eeschema/menubar.cpp:674
 #: eeschema/menubar_libedit.cpp:292 kicad/menubar.cpp:338
@@ -4072,9 +4063,8 @@ msgid "Manage footprint libraries"
 msgstr ""
 
 #: cvpcb/menubar.cpp:77
-#, fuzzy
 msgid "Footprint &Association Files..."
-msgstr "Desa el fitxer de l'associació de l'empremta"
+msgstr "Fitxers d'&associació d'empremtes..."
 
 #: cvpcb/menubar.cpp:78
 msgid ""
@@ -5187,9 +5177,8 @@ msgstr ""
 "No es modifiquen els texts dels camps."
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:112
-#, fuzzy
 msgid "Update Field Values"
-msgstr "Actualitza els valors"
+msgstr "Actualitza els valors dels camps"
 
 #: eeschema/dialogs/dialog_edit_component_in_schematic_base.cpp:113
 #, fuzzy
@@ -5804,7 +5793,7 @@ msgstr "Mo&stra la quadrícula"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:124
 msgid "&Restrict buses and wires to H and V orientation"
-msgstr "&Restringeix els busos i els fils a l'orientació H i V"
+msgstr "&Restringeix els busos i les pistes a l'orientació H i V"
 
 #: eeschema/dialogs/dialog_eeschema_options_base.cpp:127
 msgid "S&how hidden pins"
@@ -8475,13 +8464,12 @@ msgid "Redo last command"
 msgstr "Refés l'última ordre"
 
 #: eeschema/help_common_strings.h:45
-#, fuzzy
 msgid "Zoom to fit schematic page"
-msgstr "Zoom per ajustar la placa a la pantalla"
+msgstr "Escala per ajustar a la pàgina de l'esquema"
 
 #: eeschema/help_common_strings.h:46
 msgid "Redraw schematic view"
-msgstr "Torna a traçar la visualització de l'esquemàtic"
+msgstr "Redibuixa la visualització de l'esquema"
 
 #: eeschema/help_common_strings.h:48 eeschema/lib_edit_frame.cpp:1265
 #: eeschema/schedit.cpp:609 pcbnew/edit.cpp:1576
@@ -8510,7 +8498,7 @@ msgstr "Afegeix un port d'alimentació"
 
 #: eeschema/help_common_strings.h:55
 msgid "Place wire"
-msgstr "Afegeix un fil"
+msgstr "Afegeix una pista"
 
 #: eeschema/help_common_strings.h:56
 msgid "Place bus"
@@ -8518,11 +8506,11 @@ msgstr "Afegeix un bus"
 
 #: eeschema/help_common_strings.h:57
 msgid "Place wire to bus entry"
-msgstr "Afegeix un fil a l'entrada del bus"
+msgstr "Afegeix una entrada de pista al bus"
 
 #: eeschema/help_common_strings.h:58
 msgid "Place bus to bus entry"
-msgstr "Afegeix un bus a l'entrada del bus"
+msgstr "Afegeix una entrada de bus al bus"
 
 #: eeschema/help_common_strings.h:59
 #, fuzzy
@@ -8660,7 +8648,7 @@ msgstr "Centra el zoom"
 #: pagelayout_editor/hotkeys.cpp:78 pcbnew/hotkeys.cpp:206
 #: pcbnew/hotkeys.cpp:208
 msgid "Zoom Redraw"
-msgstr "Torna a traçar el zoom"
+msgstr "Redibuixa el zoom"
 
 #: eeschema/hotkeys.cpp:119 gerbview/hotkeys.cpp:70
 #: pagelayout_editor/hotkeys.cpp:73 pcbnew/hotkeys.cpp:148
@@ -8684,7 +8672,7 @@ msgstr "Doble clic amb el botó esquerre del ratolí"
 
 #: eeschema/hotkeys.cpp:128 eeschema/onrightclick.cpp:690
 msgid "Begin Wire"
-msgstr "Comença un fil"
+msgstr "Comença una pista"
 
 #: eeschema/hotkeys.cpp:129 eeschema/onrightclick.cpp:740
 msgid "Begin Bus"
@@ -8692,7 +8680,7 @@ msgstr "Comença un bus"
 
 #: eeschema/hotkeys.cpp:130
 msgid "End Line Wire Bus"
-msgstr ""
+msgstr "Acaba la línia de bus"
 
 #: eeschema/hotkeys.cpp:133
 msgid "Add Label"
@@ -8734,7 +8722,7 @@ msgstr "Afegeix una entrada de bus"
 
 #: eeschema/hotkeys.cpp:149
 msgid "Add Wire Entry"
-msgstr "Afegeix un fil d'entrada"
+msgstr "Afegeix una entrada de pista"
 
 #: eeschema/hotkeys.cpp:151
 msgid "Add Graphic PolyLine"
@@ -8884,9 +8872,8 @@ msgstr "Refés"
 
 #: eeschema/hotkeys.cpp:240 pcbnew/hotkeys.cpp:304
 #: pcbnew/tools/edit_tool.cpp:185
-#, fuzzy
 msgid "Cut"
-msgstr "Nombre:"
+msgstr "Retalla"
 
 #: eeschema/hotkeys.cpp:241 eeschema/onrightclick.cpp:555
 #: pcbnew/hotkeys.cpp:305 pcbnew/onrightclick.cpp:954
@@ -9663,9 +9650,8 @@ msgstr "Deixa el fu&ll"
 
 #: eeschema/menubar.cpp:174 eeschema/menubar_libedit.cpp:162
 #: eeschema/tool_viewlib.cpp:188 pcbnew/menubar_footprint_editor.cpp:226
-#, fuzzy
 msgid "&Zoom to Fit"
-msgstr "Redueix el zoom"
+msgstr "Escala per &ajustar"
 
 #: eeschema/menubar.cpp:191 gerbview/menubar.cpp:217
 #: pagelayout_editor/menubar.cpp:176 pagelayout_editor/pl_editor_config.cpp:67
@@ -9697,9 +9683,8 @@ msgstr "Unitats de &mesura:"
 
 #: eeschema/menubar.cpp:205 gerbview/menubar.cpp:235
 #: pcbnew/menubar_footprint_editor.cpp:264 pcbnew/menubar_pcb_editor.cpp:659
-#, fuzzy
 msgid "&Units"
-msgstr "Unitats"
+msgstr "&Unitats"
 
 #: eeschema/menubar.cpp:206 gerbview/menubar.cpp:236
 #: pcbnew/menubar_footprint_editor.cpp:265 pcbnew/menubar_pcb_editor.cpp:660
@@ -9709,16 +9694,15 @@ msgstr "Seleccioneu la biblioteca a mostrar"
 
 #: eeschema/menubar.cpp:212 eeschema/menubar.cpp:217
 msgid "Full &Window Crosshair"
-msgstr ""
+msgstr "Punt de mira a &finestra completa"
 
 #: eeschema/menubar.cpp:218
 msgid "Change cursor shape (not supported in Legacy graphics)"
 msgstr ""
 
 #: eeschema/menubar.cpp:225
-#, fuzzy
 msgid "Show Hidden &Pins"
-msgstr "Mostra els pins ocults"
+msgstr "Mostra els &pins ocults"
 
 #: eeschema/menubar.cpp:239 eeschema/menubar_libedit.cpp:359
 #, fuzzy
@@ -9731,7 +9715,7 @@ msgstr "&Port d'alimentació"
 
 #: eeschema/menubar.cpp:251
 msgid "&Wire"
-msgstr "&Fil"
+msgstr "&Pista"
 
 #: eeschema/menubar.cpp:257
 msgid "&Bus"
@@ -9739,11 +9723,11 @@ msgstr "&Bus"
 
 #: eeschema/menubar.cpp:263
 msgid "Wire to Bus &Entry"
-msgstr "Fil a l'&entrada del bus"
+msgstr "Entra&da de pista al bus"
 
 #: eeschema/menubar.cpp:269
 msgid "Bus &to Bus Entry"
-msgstr "Bus a l'en&trada del bus"
+msgstr "Entrada de b&us al bus"
 
 #: eeschema/menubar.cpp:275
 msgid "&No Connect Flag"
@@ -9790,9 +9774,8 @@ msgid "&Image"
 msgstr "&Imatge"
 
 #: eeschema/menubar.cpp:365
-#, fuzzy
 msgid "&New..."
-msgstr "&Nou"
+msgstr "&Nou..."
 
 #: eeschema/menubar.cpp:367
 msgid "Clear current schematic hierarchy and start new schematic root sheet"
@@ -9857,9 +9840,8 @@ msgstr ""
 "actual"
 
 #: eeschema/menubar.cpp:413
-#, fuzzy
 msgid "&Import Non KiCad Schematic File..."
-msgstr "Importació d'un fitxer de placa no de Kicad"
+msgstr "Importa un fitxer d'esquema aliè al KiCad..."
 
 #: eeschema/menubar.cpp:414
 #, fuzzy
@@ -9869,9 +9851,8 @@ msgstr ""
 "actual"
 
 #: eeschema/menubar.cpp:423
-#, fuzzy
 msgid "&Footprint Association File..."
-msgstr "Desa el fitxer de l'associació de l'empremta"
+msgstr "Fitxer d'associació d'&empremtes..."
 
 #: eeschema/menubar.cpp:429 pcbnew/menubar_footprint_editor.cpp:105
 #: pcbnew/menubar_pcb_editor.cpp:883
@@ -9884,9 +9865,8 @@ msgid "Import files"
 msgstr "Importa fitxers"
 
 #: eeschema/menubar.cpp:438
-#, fuzzy
 msgid "Drawing to C&lipboard"
-msgstr "Exporta els dibuixos al porta-retalls"
+msgstr "Dibuix al &porta-retalls"
 
 #: eeschema/menubar.cpp:439
 msgid "Export drawings to clipboard"
@@ -9903,9 +9883,8 @@ msgid "Export files"
 msgstr "Importa fitxers"
 
 #: eeschema/menubar.cpp:452 pcbnew/menubar_pcb_editor.cpp:931
-#, fuzzy
 msgid "Page S&ettings..."
-msgstr "A&justs de la pàgina"
+msgstr "Confi&guració de la pàgina..."
 
 #: eeschema/menubar.cpp:453 pcbnew/menubar_pcb_editor.cpp:932
 msgid "Settings for sheet size and frame references"
@@ -9922,9 +9901,8 @@ msgid "Print schematic sheet"
 msgstr "Imprimeix el full de l'esquemàtic"
 
 #: eeschema/menubar.cpp:461 pcbnew/menubar_pcb_editor.cpp:941
-#, fuzzy
 msgid "P&lot..."
-msgstr "P&loteja"
+msgstr "&Traça..."
 
 #: eeschema/menubar.cpp:462
 msgid "Plot schematic sheet in PostScript, PDF, SVG, DXF or HPGL format"
@@ -9947,7 +9925,7 @@ msgstr "&Refés"
 
 #: eeschema/menubar.cpp:489 pcbnew/menubar_pcb_editor.cpp:518
 msgid "&Cut"
-msgstr ""
+msgstr "&Retalla"
 
 #: eeschema/menubar.cpp:491 pcbnew/menubar_footprint_editor.cpp:176
 #: pcbnew/menubar_pcb_editor.cpp:520
@@ -9957,9 +9935,8 @@ msgstr "Copia les cel·les seleccionades al porta-retalls"
 
 #: eeschema/menubar.cpp:494 pcbnew/menubar_footprint_editor.cpp:177
 #: pcbnew/menubar_pcb_editor.cpp:523
-#, fuzzy
 msgid "&Copy"
-msgstr "Copia"
+msgstr "&Copia"
 
 #: eeschema/menubar.cpp:496 pcbnew/menubar_footprint_editor.cpp:179
 #: pcbnew/menubar_pcb_editor.cpp:525
@@ -9973,19 +9950,16 @@ msgid "&Delete"
 msgstr "Eli&mina"
 
 #: eeschema/menubar.cpp:512 pcbnew/menubar_pcb_editor.cpp:540
-#, fuzzy
 msgid "&Find..."
-msgstr "&Troba"
+msgstr "&Cerca..."
 
 #: eeschema/menubar.cpp:516
-#, fuzzy
 msgid "Find and Re&place..."
-msgstr "Troba i su&bstitueix"
+msgstr "Cerca i &reemplaça..."
 
 #: eeschema/menubar.cpp:525
-#, fuzzy
 msgid "Update Field Values..."
-msgstr "Actualitza els valors"
+msgstr "Actualitza els valors dels camps..."
 
 #: eeschema/menubar.cpp:526
 #, fuzzy
@@ -10108,9 +10082,8 @@ msgstr ""
 #: eeschema/menubar.cpp:673 eeschema/menubar_libedit.cpp:291
 #: kicad/menubar.cpp:337 pcbnew/menubar_footprint_editor.cpp:440
 #: pcbnew/menubar_pcb_editor.cpp:331
-#, fuzzy
 msgid "Configure Pa&ths..."
-msgstr "Configura els cam&ins"
+msgstr "Configura els cam&ins..."
 
 #: eeschema/menubar.cpp:680 eeschema/menubar_libedit.cpp:298
 #, fuzzy
@@ -10225,9 +10198,8 @@ msgstr "Desfés l'última ordre"
 
 #: eeschema/menubar_libedit.cpp:163 eeschema/tool_lib.cpp:184
 #: eeschema/tool_viewlib.cpp:81 eeschema/tool_viewlib.cpp:189
-#, fuzzy
 msgid "Zoom to fit symbol"
-msgstr "Símbol de no connexió"
+msgstr "Escala per ajustar al símbol"
 
 #: eeschema/menubar_libedit.cpp:179
 #, fuzzy
@@ -10594,7 +10566,7 @@ msgstr "Arrossega l'entroncament"
 
 #: eeschema/onrightclick.cpp:668 eeschema/onrightclick.cpp:716
 msgid "Break Wire"
-msgstr "Talla el fil"
+msgstr "Talla la pista"
 
 #: eeschema/onrightclick.cpp:676 eeschema/onrightclick.cpp:710
 msgid "Delete Connection"
@@ -10602,15 +10574,15 @@ msgstr "Elimina la connexió"
 
 #: eeschema/onrightclick.cpp:698
 msgid "Wire End"
-msgstr "Fi del fil"
+msgstr "Acaba la pista"
 
 #: eeschema/onrightclick.cpp:703
 msgid "Drag Wire"
-msgstr "Arrossega el fil"
+msgstr "Arrossega la pista"
 
 #: eeschema/onrightclick.cpp:706
 msgid "Delete Wire"
-msgstr "Elimina el fil"
+msgstr "Elimina la pista"
 
 #: eeschema/onrightclick.cpp:723 eeschema/onrightclick.cpp:761
 #, fuzzy
@@ -10913,7 +10885,7 @@ msgstr "Imatge"
 
 #: eeschema/sch_bus_entry.cpp:337
 msgid "Bus to Wire Entry"
-msgstr "Bus al fil del bus"
+msgstr "Entrada de pista al bus"
 
 #: eeschema/sch_bus_entry.cpp:343
 msgid "Bus to Bus Entry"
@@ -11002,11 +10974,11 @@ msgstr ""
 
 #: eeschema/sch_edit_frame.cpp:788
 msgid "Draw wires and buses in any direction"
-msgstr "Traça fils i busos en qualsevol direcció"
+msgstr "Traça pistes i busos en qualsevol direcció"
 
 #: eeschema/sch_edit_frame.cpp:789
 msgid "Draw horizontal and vertical wires and buses only"
-msgstr "Traça tan sols fils i busos en vertical i en horitzontal"
+msgstr "Traça tan sols pistes i busos en vertical i en horitzontal"
 
 #: eeschema/sch_edit_frame.cpp:798
 msgid "Do not show hidden pins"
@@ -11171,7 +11143,7 @@ msgstr "%s Línia gràfica de (%s,%s) a (%s,%s)"
 #: eeschema/sch_line.cpp:626
 #, c-format
 msgid "%s Wire from (%s,%s) to (%s,%s)"
-msgstr "%s Fil des de (%s,%s) fins a (%s,%s)"
+msgstr "%s Pista des de (%s,%s) fins a (%s,%s)"
 
 #: eeschema/sch_line.cpp:630
 #, c-format
@@ -11394,7 +11366,7 @@ msgstr "Afegeix no connexió"
 
 #: eeschema/schedit.cpp:529
 msgid "Add wire"
-msgstr "Afegeix un fil"
+msgstr "Afegeix una pista"
 
 #: eeschema/schedit.cpp:534
 msgid "Add bus"
@@ -11426,7 +11398,7 @@ msgstr "Afegeix una imatge"
 
 #: eeschema/schedit.cpp:574
 msgid "Add wire to bus entry"
-msgstr "Afegeix un fil a entrada de bus"
+msgstr "Afegeix una entrada de pista al bus"
 
 #: eeschema/schedit.cpp:579
 msgid "Add bus to bus entry"
@@ -11597,9 +11569,9 @@ msgid "You need to select the simulation settings first."
 msgstr "Primer heu de seleccionar els ajusts de la simulació."
 
 #: eeschema/sim/sim_plot_frame.cpp:332
-#, fuzzy, c-format
+#, c-format
 msgid "Plot%u"
-msgstr "Ploteja"
+msgstr "Traça%u"
 
 #: eeschema/sim/sim_plot_frame.cpp:570 eeschema/sim/sim_plot_frame.cpp:1167
 msgid "Signal"
@@ -11979,7 +11951,7 @@ msgstr "Estableix la unitat a mm"
 
 #: eeschema/tool_sch.cpp:317
 msgid "HV orientation for wires and bus"
-msgstr "Orientació HV per a les línies i els busos"
+msgstr "Orientació HV per a les pistes i els busos"
 
 #: eeschema/tool_viewlib.cpp:54
 #, fuzzy
@@ -12105,7 +12077,7 @@ msgstr " X "
 
 #: eeschema/widgets/widget_eeschema_color_config.cpp:58
 msgid "Wire"
-msgstr "Fil"
+msgstr "Pista"
 
 #: eeschema/widgets/widget_eeschema_color_config.cpp:59
 msgid "Bus"
@@ -13154,14 +13126,12 @@ msgid "Show or hide the layer manager"
 msgstr "Mostra o oculta la barra d'eines del gestor de capes"
 
 #: gerbview/menubar.cpp:204 gerbview/toolbars_gerber.cpp:84
-#, fuzzy
 msgid "Zoom to fit"
-msgstr "Redueix el zoom"
+msgstr "Escala per ajustar"
 
 #: gerbview/menubar.cpp:212
-#, fuzzy
 msgid "Refresh screen"
-msgstr "Torna a traçar la pantalla"
+msgstr "Refresca la pantalla"
 
 #: gerbview/menubar.cpp:221 pcbnew/menubar_footprint_editor.cpp:250
 #: pcbnew/menubar_pcb_editor.cpp:645
@@ -14808,9 +14778,8 @@ msgid "Delete selected item"
 msgstr "Elimina l'element seleccionat"
 
 #: pagelayout_editor/toolbars_pl_editor.cpp:92
-#, fuzzy
 msgid "Zoom to fit page"
-msgstr "Zoom per ajustar la placa a la pantalla"
+msgstr "Escala per ajustar a la pàgina"
 
 #: pagelayout_editor/toolbars_pl_editor.cpp:104
 msgid ""
@@ -17096,7 +17065,7 @@ msgstr "Opció del fitxer:"
 #: pcbnew/dialogs/dialog_SVG_print_base.cpp:126
 #: pcbnew/dialogs/dialog_plot.cpp:58 pcbnew/dialogs/dialog_plot_base.h:144
 msgid "Plot"
-msgstr "Ploteja"
+msgstr "Traça"
 
 #: pcbnew/dialogs/dialog_SVG_print_base.h:75
 #, fuzzy
@@ -21664,7 +21633,8 @@ msgstr "Pad a la llargada del dau:"
 msgid ""
 "Wire length from pad to die on chip ( used to calculate actual track length)"
 msgstr ""
-"Llargada del fil des del pad fins al dau del xip (s'utilitza per calcular la "
+"Llargada de la pista des del pad fins al dau del xip (s'utilitza per calcular"
+" la "
 "llargada real de la pista)"
 
 #: pcbnew/dialogs/dialog_pad_properties_base.cpp:198
@@ -23580,9 +23550,8 @@ msgid "Open Board File"
 msgstr "Obre el fitxer de la placa"
 
 #: pcbnew/files.cpp:143
-#, fuzzy
 msgid "Import Non KiCad Board File"
-msgstr "Importació d'un fitxer de placa no de Kicad"
+msgstr "Importa un fitxer de placa aliè al KiCad"
 
 #: pcbnew/files.cpp:179
 msgid "Save Board File As"
@@ -24254,13 +24223,12 @@ msgid "Find components and text in current loaded board"
 msgstr "Troba components i text en la placa carregada actualment"
 
 #: pcbnew/help_common_strings.h:21
-#, fuzzy
 msgid "Zoom to fit board or page"
-msgstr "Zoom per ajustar la placa a la pantalla"
+msgstr "Escala per ajustar a la placa o pàgina"
 
 #: pcbnew/help_common_strings.h:22
 msgid "Redraw screen"
-msgstr "Torna a traçar la pantalla"
+msgstr "Redibuixa la pantalla"
 
 #: pcbnew/help_common_strings.h:26
 msgid ""
@@ -25062,7 +25030,7 @@ msgstr "Refés l'última acció"
 
 #: pcbnew/menubar_footprint_editor.cpp:174
 msgid "Cu&t"
-msgstr ""
+msgstr "&Retalla"
 
 #: pcbnew/menubar_footprint_editor.cpp:189 pcbnew/menubar_pcb_editor.cpp:535
 #: pcbnew/tool_pcb_editor.cpp:495
@@ -25085,9 +25053,8 @@ msgstr "Visualitzador &3D"
 
 #: pcbnew/menubar_footprint_editor.cpp:228 pcbnew/tool_footprint_viewer.cpp:93
 #: pcbnew/tool_footprint_viewer.cpp:156
-#, fuzzy
 msgid "Zoom to fit footprint"
-msgstr "Importa una empremta"
+msgstr "Escala per ajustar a l'empremta"
 
 #: pcbnew/menubar_footprint_editor.cpp:246 pcbnew/menubar_pcb_editor.cpp:641
 #, fuzzy
@@ -25102,7 +25069,7 @@ msgstr ""
 #: pcbnew/menubar_footprint_editor.cpp:275 pcbnew/menubar_pcb_editor.cpp:666
 #: pcbnew/menubar_pcb_editor.cpp:671
 msgid "Full Window Crosshair"
-msgstr ""
+msgstr "Punt de mira a finestra completa"
 
 #: pcbnew/menubar_footprint_editor.cpp:286 pcbnew/menubar_pcb_editor.cpp:703
 #, fuzzy
@@ -25648,9 +25615,8 @@ msgid "&Fill Zones"
 msgstr "Omple la zona"
 
 #: pcbnew/menubar_pcb_editor.cpp:693
-#, fuzzy
 msgid "&Wireframe Zones"
-msgstr "Combina les zones"
+msgstr "Zones en &malla"
 
 #: pcbnew/menubar_pcb_editor.cpp:693 pcbnew/tool_pcb_editor.cpp:389
 msgid "Show outlines of filled areas only in zones"
@@ -25755,9 +25721,8 @@ msgid "Append another board to currently loaded board"
 msgstr "Annexa una altra placa a la placa carregada actualment"
 
 #: pcbnew/menubar_pcb_editor.cpp:857
-#, fuzzy
 msgid "Import Non-KiCad Board File..."
-msgstr "Importació d'un fitxer de placa no de Kicad"
+msgstr "Importa un fitxer de placa aliè al KiCad..."
 
 #: pcbnew/menubar_pcb_editor.cpp:858
 msgid "Import board file from other applications"
